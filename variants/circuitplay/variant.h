@@ -68,12 +68,14 @@
 #define PIN_LED_13  (13u)
 #define PIN_LED     PIN_LED_13
 #define LED_BUILTIN PIN_LED
-
-
 //#define PIN_LED_RXL          (25u)
 //#define PIN_LED_TXL          (26u)
 //#define PIN_LED2             PIN_LED_RXL
 //#define PIN_LED3             PIN_LED_TXL
+// Neopixel
+#define NEOPIXEL_BUILTIN     (8u)
+#define PIN_NEOPIXEL         NEOPIXEL_BUILTIN
+#define NEOPIXEL_COUNT       10
 
 /*
  * Analog pins

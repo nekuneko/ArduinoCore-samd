@@ -88,7 +88,10 @@ extern "C"
 #define PIN_LED2            PIN_LED_RXL
 #define PIN_LED3            PIN_LED_TXL
 #define LED_BUILTIN         PIN_LED_13
-#define PIN_NEOPIXEL		    (88)
+// Neopixel
+#define NEOPIXEL_BUILTIN     (88u)
+#define PIN_NEOPIXEL         NEOPIXEL_BUILTIN
+#define NEOPIXEL_COUNT       1
 
 /*
  * Analog pins

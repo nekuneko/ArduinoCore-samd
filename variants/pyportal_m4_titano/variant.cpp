@@ -44,7 +44,7 @@ const PinDescription g_APinDescription[]=
   { PORTB, 12, PIO_SERCOM    , PIN_ATTR_NONE                   , No_ADC_Channel, TC4_CH0   , TCC3_CH0    , EXTERNAL_INT_12   }, // TXD (pin 1, to ESP32), SERCOM4/PAD[0]
 
   // 2..4
-  { PORTB, 22, PIO_DIGITAL   , PIN_ATTR_PWM_E                  , No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_6    }, // NEOPIX
+  { PORTB, 22, PIO_DIGITAL   , PIN_ATTR_PWM_E                  , No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_6    }, // D2 NEOPIX
   { PORTA,  4, PIO_SERCOM_ALT, (PIN_ATTR_ANALOG|PIN_ATTR_PWM_E), ADC_Channel4  , TC0_CH0   , TC0_CH0     , EXTERNAL_INT_4    }, // D3 (SENSE JST)
   { PORTA,  5, PIO_SERCOM_ALT, (PIN_ATTR_ANALOG|PIN_ATTR_PWM_E), ADC_Channel5  , TC0_CH1   , TC0_CH1     , EXTERNAL_INT_5    }, // D4 (NEOPIX JST)
 

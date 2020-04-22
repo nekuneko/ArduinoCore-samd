@@ -84,6 +84,14 @@ extern "C"
 #define PIN_LED_13           (13u)
 #define PIN_LED              PIN_LED_13
 #define LED_BUILTIN          PIN_LED_13
+// DotStar LED
+#define INTERNAL_DS_DATA     37
+#define INTERNAL_DS_CLK      38
+// Neopixel
+#define NEOPIXEL_BUILTIN     (10u)
+#define PIN_NEOPIXEL         NEOPIXEL_BUILTIN
+#define NEOPIXEL_COUNT       32
+
 
 /*
  * Analog pins
