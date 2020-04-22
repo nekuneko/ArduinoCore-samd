@@ -18,6 +18,7 @@
 
 #define ARDUINO_MAIN
 #include "Arduino.h"
+#include "neopixel.h"
 
 // Weak empty variant initialization function.
 // May be redefined by variant files.
@@ -40,6 +41,9 @@ int main( void )
 
   delay(1);
 
+  // Turn off Neopixel/DotStar if any
+  RGBLED_set_color(0x000000);  // 3 BYTES - RED GREEN BLUE
+  
 #if defined(USE_TINYUSB)
   Adafruit_TinyUSB_Core_init();
 #elif defined(USBCON)
