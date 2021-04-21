@@ -46,7 +46,6 @@ extern "C"{
 
 // Include Atmel headers
 #include "sam.h"
-
 #include "wiring_constants.h"
 
 #define clockCyclesPerMicrosecond() ( SystemCoreClock / 1000000L )
